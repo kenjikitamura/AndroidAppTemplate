@@ -2,7 +2,9 @@ package template.apptemplate.di
 
 import android.app.Application
 import android.content.Context
+import androidx.lifecycle.ViewModelProvider
 import androidx.room.Room
+import dagger.Binds
 import dagger.Module
 import dagger.Provides
 import template.apptemplate.dao.Database

@@ -8,5 +8,5 @@ import template.apptemplate.model.Item
     Item::class
 ], version = 1)
 abstract class Database : RoomDatabase() {
-    abstract fun itemDat(): ItemDao
+    abstract fun itemDao(): ItemDao
 }
